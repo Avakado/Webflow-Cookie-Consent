@@ -152,13 +152,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## 2. 💡 Build your banner in Webflow
 
-Your cookie modal should have the following structure:
+✅ Your cookie modal should have the following structure:
 
-✅ A wrapper element with ID: `cookie-banner` > set in styles display:none  
+- A wrapper element with ID: `cookie-banner` > set in styles display:none  
 Add this buttons(structure doesnt metter, so technically you can put it anywhere but usually inside the banner, ids metter  
-✅ Accept all button with ID: `accept-all-cookies`  
-✅ Reject all button with ID: `reject-all-cookies`  
-✅ Save selection button with ID: `save-selection-cookies`  
+- Accept all button with ID: `accept-all-cookies`  
+- Reject all button with ID: `reject-all-cookies`  
+- Save selection button with ID: `save-selection-cookies`  
 Put "Edit cookies" button/link/text/div somewhere you prefer  
 - Optional "Edit settings" button in the footer with ID: `edit-consent`  
 
