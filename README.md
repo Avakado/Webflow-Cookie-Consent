@@ -258,7 +258,7 @@ Feel free to modify and improve!
 
 ## 👩‍💻 Author & Contact
 
-Made with ❤️ by [Michael]([https://www.linkedin.com/in/your-link/](https://www.linkedin.com/in/michael-kuzmin/))  
+Made with ❤️ by [Michael](https://www.linkedin.com/in/michael-kuzmin/)  
 📧 Email: okidoki9710@gmail.com 
 
 Need a demo? Want to add categories dynamically via CMS? Let us know!
