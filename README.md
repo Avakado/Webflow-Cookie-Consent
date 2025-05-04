@@ -22,8 +22,8 @@ A simple script to manage third-party script loading based on cookie consent —
 ## 1. 🧠 Add the script
 
 Paste the following JS snippet into your 
-**Webflow Project > Page Settings > Head Code**/Body Code(Depends on where you need this script)
-or Custom Code for the full 
+**Webflow Project > Page Settings > Head Code**/Body Code(Depends on where you need this script)  
+or Custom Code for the full  
 **Project Dashboard > Site Settings > Custom code > Head code/Footer code:
 
 ```html
@@ -154,13 +154,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 Your cookie modal should have the following structure:
 
-- A wrapper element with ID: `cookie-banner` > set in styles display:none
-Add this buttons(structure doesnt metter, so technically you can put it anywhere but usually inside the banner, ids metter
-- Accept all button with ID: `accept-all-cookies`
-- Reject all button with ID: `reject-all-cookies`
-- Save selection button with ID: `save-selection-cookies`
-Put "Edit cookies" button/link/text/div somewhere you prefer
-- Optional "Edit settings" button in the footer with ID: `edit-consent`
+✅ A wrapper element with ID: `cookie-banner` > set in styles display:none  
+Add this buttons(structure doesnt metter, so technically you can put it anywhere but usually inside the banner, ids metter  
+✅ Accept all button with ID: `accept-all-cookies`  
+✅ Reject all button with ID: `reject-all-cookies`  
+✅ Save selection button with ID: `save-selection-cookies`  
+Put "Edit cookies" button/link/text/div somewhere you prefer  
+- Optional "Edit settings" button in the footer with ID: `edit-consent`  
 
 ![Cookie Banner](examples/accept-all-btn.png)
 ![Cookie Banner](examples/cookies-settings-btn.png)
@@ -170,8 +170,8 @@ Put "Edit cookies" button/link/text/div somewhere you prefer
 
 ## 3. ✅ Add checkboxes with attributes
 
-Each consent option should be a checkbox inside a label with the following custom attributes:
-change all " to ' in script line 
+Each consent option should be a checkbox inside a label with the following custom attributes:  
+✅ change all " to ' in script line 
 
 
 | Attribute Name         | Value (example)                             |
@@ -232,7 +232,8 @@ If your use case requires full GDPR/CCPA compliance (e.g. legal protection), con
 
 ---
 
-##🙋 FAQ
+## 🙋 FAQ
+
 ❓ Can I use this without any third-party plugin?
 Yes! This system works 100% with Webflow-native tools and JavaScript.
 
