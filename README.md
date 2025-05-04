@@ -19,7 +19,7 @@ A simple script to manage third-party script loading based on cookie consent —
 
 ## 🛠 Installation & Setup
 
-### 1. 🧠 Add the script
+## 1. 🧠 Add the script
 
 Paste the following JS snippet into your 
 **Webflow Project > Page Settings > Head Code**/Body Code(Depends on where you need this script)
@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ---
 
-### 2. 💡 Build your banner in Webflow
+## 2. 💡 Build your banner in Webflow
 
 Your cookie modal should have the following structure:
 
@@ -165,16 +165,13 @@ Put "Edit cookies" button/link/text/div somewhere you prefer
 ![Cookie Banner](examples/accept-all-btn.png)
 ![Cookie Banner](examples/cookies-settings-btn.png)
 ![Cookie Banner](examples/reject-all-btn.png)
-![Cookie Banner](examples/cookies-settings-btn.png)
 
 ---
 
-### 3. ✅ Add checkboxes with attributes
+## 3. ✅ Add checkboxes with attributes
 
 Each consent option should be a checkbox inside a label with the following custom attributes:
-change " to ' in script line 
-Example:
-data-cookie-script="<script async src='https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXX');</script>"
+change all " to ' in script line 
 
 
 | Attribute Name         | Value (example)                             |
@@ -205,7 +202,7 @@ or
 
 ---
 
-### 4. 🔒 Handling Necessary Cookies in the Script
+## 4. 🔒 Handling Necessary Cookies in the Script
 ❗ Do NOT include data-cookie-script for necessary cookies
 If you do not add data-cookie-script, the script will skip it — so nothing is dynamically injected. You can safely load necessary cookies directly in the <head> of your document.
 
@@ -216,7 +213,7 @@ Necessary cookies should:
 
 ---
 
-## 🔁 What happens behind the scenes
+### 🔁 What happens behind the scenes
 
 - If no consent: banner shows up.
 - User selects options → consent is stored in `localStorage`.
