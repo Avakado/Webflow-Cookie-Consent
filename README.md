@@ -200,6 +200,7 @@ or
 ```
 ![Cookie Banner](examples/checkbox-cookies-settings.png)
 
+
 ---
 
 ## 4. 🔒 Handling Necessary Cookies in the Script
