@@ -214,6 +214,11 @@ Necessary cookies should:
 
 ---
 
+## 5. ♻️ Create from this reusable component
+❗ The best way to make a reusable component and include it to all pages of webflow project.
+
+---
+
 ### 🔁 What happens behind the scenes
 
 - If no consent: banner shows up.
@@ -229,6 +234,7 @@ Necessary cookies should:
 
 This solution is great for lightweight consent management.
 If your use case requires full GDPR/CCPA compliance (e.g. legal protection), consider integrating with a professional CMP provider.
+❗ The best way to make a reusable component and include it to all pages of webflow project
 
 ---
 
